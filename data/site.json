@@ -3,12 +3,39 @@
     "branding": "William Luo",
     "sections" : [
         {
-            "name":"Portfolio",
-            "id":"portfolio"
+            "name": "Areas of Focus",
+            "id": "areas-of-focus",
+            "description": "Technologies or Skills I've Acquired",
+            "items": [
+                {
+                    "heading": "Web Programming",
+                    "description": "HTML5, Javascript (ES6), CSS3"
+                },
+                {
+                    "heading": "Server Programming",
+                    "description": "Java, Python, NodeJS, UNIX"
+                },
+                {
+                    "heading": "Frameworks",
+                    "description": "ReactJS, NodeJS, BootStrap 4, Spring Boot/Web/Security, Android"
+                },
+                {
+                    "heading": "Concepts/Practices",
+                    "description": "Continuous Integration/Development, Agile, RESTful Webservices, SCM, Test/Behavior Driven Development, Full Stack Development"
+                },
+                {
+                    "heading": "Tooling",
+                    "description": "Git, Maven, Jenkins, Splunk, IDEs, Rest Clients, MS Office Suite"
+                },
+                {
+                    "heading": "Scripting/Other Programming",
+                    "description": "Groovy, AHK, Typescript, JSX, SASS, Serenity/JBehave, Handlebars/Thymeleaf Templating, SQL"
+                }
+            ]
         },
         {
-            "name":"Interests",
-            "id":"services"
+            "name":"Portfolio",
+            "id":"portfolio"
         },
         {
             "name":"About",
