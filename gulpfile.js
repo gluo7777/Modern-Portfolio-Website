@@ -106,7 +106,7 @@ gulp.task("js", js);
 function browserSync(done) {
   browsersync.init({
     server: {
-      baseDir: "./"
+      baseDir: "./public"
     }
   });
   done();
@@ -120,9 +120,9 @@ function browserSyncReload(done) {
 
 // Watch files
 function watchFiles() {
-  gulp.watch("./scss/**/*", css);
-  gulp.watch(["./js/**/*.js", "!./js/*.min.js"], js);
-  gulp.watch("./**/*.html", browserSyncReload);
+  gulp.watch("./public/scss/**/*", css);
+  gulp.watch(["./public/js/**/*.js", "!./js/*.min.js"], js);
+  gulp.watch("./public/**/*.html", browserSyncReload);
 }
 
 gulp.task("default", gulp.parallel('vendor', css, js));
