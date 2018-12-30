@@ -39,7 +39,28 @@
         },
         {
             "name":"About",
-            "id":"about"
+            "id":"about",
+            "description": "How I got to today.",
+            "timeline": [
+                {
+                    "date": "2009-2011",
+                    "heading": "Took AP Computer Science in High School",
+                    "description": "I knew next to nothing about computers in general until I decided to take a keyboarding course in HS. From there on, I took CS1, then CS 2 (AP), and even participated in competitions.",
+                    "image": "3.jpg"
+                },
+                {
+                    "date": "2013-2017",
+                    "heading": "Bachelors in CS at University of Texas at Dallas",
+                    "description": "Enrolled in the CS program at UTD after having received a scholarship for full tuition.",
+                    "image": "3.jpg"
+                },
+                {
+                    "date": "October 2017",
+                    "heading": "Starting Working at State Farm",
+                    "description": "Started work as a backend developer building web services. Outside of work, I worked on my own projects, which were more UI-involved.",
+                    "image": "3.jpg"
+                }
+            ]
         },
         {
             "name":"Contact",
