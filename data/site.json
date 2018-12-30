@@ -1,6 +1,14 @@
 {
     "title": "William Luo Portfolio Website",
     "branding": "William Luo",
+    "intro" : {
+        "lead-in" : "Welcome to My Portfolio Website!",
+        "heading" : "Everything About William Here",
+        "link" : {
+            "text" : "This does nothing",
+            "url" : "services"
+        }
+    },
     "sections" : [
         {
             "name": "Areas of Focus",
@@ -67,14 +75,6 @@
             "id":"contact"
         }
     ],
-    "intro" : {
-        "lead-in" : "Welcome to My Portfolio Website!",
-        "heading" : "Hope something interests you.",
-        "link" : {
-            "text" : "Tell Me More",
-            "url" : "services"
-        }
-    },
     "projects" : {
         "heading" : "Projects that I've worked on",
         "sub-heading" : "Click on an item for details!",
@@ -84,7 +84,22 @@
                 "description" : "A modern portfolio website to showcase my work.",
                 "thumbnail" : "01-thumbnail.jpg",
                 "full" : "01-full.jpg",
-                "id" : "PortfolioWebsite",
+                "technologies" : [ "node.js 6", "BootStrap 4", "ExpressJS", "Handlebars.js", "jQuery", "JSON", "Nginx"],
+                "summary":"Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+            },
+            {
+                "title" : "Pomodoro Timer Task Application",
+                "description" : "A modern portfolio website to showcase my work.",
+                "thumbnail" : "01-thumbnail.jpg",
+                "full" : "01-full.jpg",
+                "technologies" : [ "node.js 6", "BootStrap 4", "ExpressJS", "Handlebars.js", "jQuery", "JSON", "Nginx"],
+                "summary":"Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+            },
+            {
+                "title" : "Reddit Bot that Sends Alerts",
+                "description" : "A modern portfolio website to showcase my work.",
+                "thumbnail" : "01-thumbnail.jpg",
+                "full" : "01-full.jpg",
                 "technologies" : [ "node.js 6", "BootStrap 4", "ExpressJS", "Handlebars.js", "jQuery", "JSON", "Nginx"],
                 "summary":"Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
             }
