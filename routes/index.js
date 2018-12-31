@@ -6,10 +6,18 @@ const fs = require('fs');
 router.get('/', function(req, res, next) {
   fs.readFile('data/site.json', (err,data) => {
     if(err){ 
-      console.log(err);
+      console.err(err);
       next(err); // must pass errors inside async to Express
     };
-    res.render('index', JSON.parse(data));
+    res.render('index', JSON.parse(data)
+    ,(err,html) => {
+      if(err){
+        console.error(err);
+        res.status(500).send('Unable to generate web page.');
+      }else{
+        res.send(html);
+      }
+    });
   });
 });
 
