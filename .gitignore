@@ -1,2 +1,4 @@
 node_modules
-portfolio.tar.gz
+*.tar.gz
+*.out
+*.err
