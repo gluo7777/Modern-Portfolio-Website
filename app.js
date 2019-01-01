@@ -21,7 +21,5 @@ require('./lib/templates');
 
 const indexRouter = require('./routes/index');
 app.use('/', indexRouter);
-const apiRouter = require('./routes/api');
-app.use('/api', apiRouter);
 
 module.exports = app;

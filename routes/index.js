@@ -7,8 +7,8 @@ router.get('/', function(req, res, next) {
   renderFile('index', next, res);
 });
 
-router.get('/privacy.html', (req,res,next) => renderFile('privacy', next, res));
-router.get('/terms.html', (req,res,next) => renderFile('terms', next, res));
+router.get('/privacy', (req,res,next) => renderFile('privacy', next, res));
+router.get('/terms', (req,res,next) => renderFile('terms', next, res));
 
 function renderFile(file, next, res) {
   fs.readFile('data/site.json', (err, data) => {
