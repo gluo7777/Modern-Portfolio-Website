@@ -4,21 +4,29 @@ const fs = require('fs');
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  fs.readFile('data/site.json', (err,data) => {
-    if(err){ 
+  renderFile('index', next, res);
+});
+
+router.get('/privacy.html', (req,res,next) => renderFile('privacy', next, res));
+router.get('/terms.html', (req,res,next) => renderFile('terms', next, res));
+
+function renderFile(file, next, res) {
+  fs.readFile('data/site.json', (err, data) => {
+    if (err) {
       console.err(err);
       next(err); // must pass errors inside async to Express
-    };
-    res.render('index', JSON.parse(data)
-    ,(err,html) => {
-      if(err){
+    }
+    ;
+    res.render(file, JSON.parse(data), (err, html) => {
+      if (err) {
         console.error(err);
         res.status(500).send('Unable to generate web page.');
-      }else{
+      }
+      else {
         res.send(html);
       }
     });
   });
-});
+};
 
 module.exports = router;

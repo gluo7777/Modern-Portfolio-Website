@@ -1,6 +1,9 @@
 {
-    "title": "William Luo Portfolio Website",
+    "title": "William Luo Portfolio",
+    "company": "William Luo Portfolio",
+    "website": "https://www.ceruleanmind.com",
     "branding": "William Luo",
+    "email": "ceruleanmindquestions@gmail.com",
     "intro": {
         "lead-in": "Welcome to My Portfolio Website!",
         "heading": "Everything About William Here",
