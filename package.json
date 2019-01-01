@@ -2,6 +2,9 @@
     "title": "Modern Portfolio Website",
     "version": "1.0.0",
     "description": "Website to showcase what I've done.",
+    "scripts": {
+        "start": "node ./bin/www"
+    },
     "keywords": [
         "css",
         "sass",
