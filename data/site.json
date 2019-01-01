@@ -1,15 +1,15 @@
 {
     "title": "William Luo Portfolio Website",
     "branding": "William Luo",
-    "intro" : {
-        "lead-in" : "Welcome to My Portfolio Website!",
-        "heading" : "Everything About William Here",
-        "link" : {
-            "text" : "This does nothing",
-            "url" : "services"
+    "intro": {
+        "lead-in": "Welcome to My Portfolio Website!",
+        "heading": "Everything About William Here",
+        "link": {
+            "text": "More About Myself",
+            "url": "areas-of-focus"
         }
     },
-    "sections" : [
+    "sections": [
         {
             "name": "Areas of Focus",
             "id": "areas-of-focus",
@@ -42,12 +42,12 @@
             ]
         },
         {
-            "name":"Portfolio",
-            "id":"portfolio"
+            "name": "Portfolio",
+            "id": "portfolio"
         },
         {
-            "name":"About",
-            "id":"about",
+            "name": "About",
+            "id": "about",
             "description": "How I got to today.",
             "timeline": [
                 {
@@ -71,38 +71,66 @@
             ]
         },
         {
-            "name":"Contact",
-            "id":"contact"
+            "name": "Contact",
+            "id": "contact"
         }
     ],
-    "projects" : {
-        "heading" : "Projects that I've worked on",
-        "sub-heading" : "Click on an item for details!",
-        "items" : [
+    "projects": {
+        "heading": "Projects that I've worked on",
+        "sub-heading": "Click on an item for details!",
+        "items": [
             {
-                "title" : "Portfolio Website",
-                "description" : "A modern portfolio website to showcase my work.",
-                "thumbnail" : "01-thumbnail.jpg",
-                "full" : "01-full.jpg",
-                "technologies" : [ "node.js 6", "BootStrap 4", "ExpressJS", "Handlebars.js", "jQuery", "JSON", "Nginx"],
-                "summary":"Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                "title": "Portfolio Website",
+                "description": "A modern portfolio website to showcase my work.",
+                "thumbnail": "01-thumbnail.jpg",
+                "full": "01-full.jpg",
+                "technologies": [
+                    "node.js 6",
+                    "BootStrap 4",
+                    "ExpressJS",
+                    "Handlebars.js",
+                    "jQuery",
+                    "JSON",
+                    "Nginx"
+                ],
+                "summary": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+                "link": "https://www.ceruleanmind.com",
+                "source": "https://github.com/gluo7777/Modern-Portfolio-Website"
             },
             {
-                "title" : "Pomodoro Timer Task Application",
-                "description" : "A modern portfolio website to showcase my work.",
-                "thumbnail" : "01-thumbnail.jpg",
-                "full" : "01-full.jpg",
-                "technologies" : [ "node.js 6", "BootStrap 4", "ExpressJS", "Handlebars.js", "jQuery", "JSON", "Nginx"],
-                "summary":"Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                "title": "Pomodoro Timer Task Application",
+                "description": "A timer application that also keeps track of tasks.",
+                "thumbnail": "01-thumbnail.jpg",
+                "full": "01-full.jpg",
+                "technologies": [
+                    "node.js 6",
+                    "Javascript ES6",
+                    "ExpressJS",
+                    "Single Page Application",
+                    "OAuth2.0 with Google Auth Services"
+                ],
+                "summary": "This was one of my first javascript projects, so I initially used only JS without any technology stacks. It's very rough around the edges, so I plan on switching soon to a framework like React.js.",
+                "link": "https://www.ceruleanmind.com/timer",
+                "source": "https://github.com/gluo7777/Pomodoro-Task-Timer"
             },
             {
-                "title" : "Reddit Bot that Sends Alerts",
-                "description" : "A modern portfolio website to showcase my work.",
-                "thumbnail" : "01-thumbnail.jpg",
-                "full" : "01-full.jpg",
-                "technologies" : [ "node.js 6", "BootStrap 4", "ExpressJS", "Handlebars.js", "jQuery", "JSON", "Nginx"],
-                "summary":"Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!"
+                "title": "Reddit Bot that Sends Alerts",
+                "description": "A script that monitors certain subreddits for posts that fulfill certain criterias and messages registered users.",
+                "thumbnail": "1024px-Reddit.svg-thumbnail.png",
+                "full": "1024px-Reddit.svg.png",
+                "technologies": [
+                    "Python",
+                    "OAuth2.0",
+                    "PRAW Reddit Wrapper"
+                ],
+                "summary": "Uses OAuth and Reddit account to fetch information about subreddits, posts, and to message users.",
+                "source": "https://github.com/gluo7777/PythonRedditDealsBot"
             }
         ]
+    },
+    "footer": {
+        "github": "https://github.com/gluo7777",
+        "linkedin": "https://www.linkedin.com/in/williamluo/",
+        "twitter": "https://twitter.com/IcyWill01"
     }
 }

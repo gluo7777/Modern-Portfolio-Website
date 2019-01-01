@@ -1,0 +1,13 @@
+<header class="masthead">
+    <div class="container">
+        <div class="intro-text">
+            {{#with intro}}
+            <div class="intro-lead-in">{{lead-in}}</div>
+            <div class="intro-heading text-uppercase">{{heading}}</div>
+            {{#with link}}
+            <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#{{url}}">{{text}}</a>
+            {{/with}}
+            {{/with}}
+        </div>
+    </div>
+</header>
