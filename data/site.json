@@ -125,6 +125,21 @@
                 ],
                 "summary": "Uses OAuth and Reddit account to fetch information about subreddits, posts, and to message users.",
                 "source": "https://github.com/gluo7777/PythonRedditDealsBot"
+            },
+            {
+                "title": "Raspberry Pi Home Server",
+                "description": "Raspi server from scratch that hosts this website.",
+                "thumbnail": "Raspberry-Pi-Zero-FL-thumbnail.jpg",
+                "full": "Raspberry-Pi-Zero-FL.jpg",
+                "technologies": [
+                    "Raspbian",
+                    "Nginx",
+                    "ufw/fail2ban",
+                    "Lot's of UNIX",
+                    "Domain,DNS hosting,Cloudflare,HTTPS"
+                ],
+                "summary": "Configured a server from scratch on a pi. Purchased this domain name and configured Nginx as a reverse proxy.",
+                "source": "https://github.com/gluo7777/Raspberrypi"
             }
         ]
     },
