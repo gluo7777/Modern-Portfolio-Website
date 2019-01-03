@@ -103,8 +103,8 @@
             {
                 "title": "Pomodoro Timer Task Application",
                 "description": "A timer application that also keeps track of tasks.",
-                "thumbnail": "01-thumbnail.jpg",
-                "full": "01-full.jpg",
+                "thumbnail": "pomodoro-thumbnail.jpg",
+                "full": "pomodoro.jpg",
                 "technologies": [
                     "node.js 6",
                     "Javascript ES6",
