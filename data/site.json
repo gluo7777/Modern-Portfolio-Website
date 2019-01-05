@@ -96,7 +96,7 @@
                     "JSON",
                     "Nginx"
                 ],
-                "summary": "Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!",
+                "summary": "Built using Bootstrap with ExpressJs backend. Server-side rendering with Handlebar templates.",
                 "link": "https://www.ceruleanmind.com",
                 "source": "https://github.com/gluo7777/Modern-Portfolio-Website"
             },
@@ -113,7 +113,7 @@
                     "OAuth2.0 with Google Auth Services"
                 ],
                 "summary": "This was one of my first javascript projects, so I initially used only JS without any technology stacks. It's very rough around the edges, so I plan on switching soon to a framework like React.js.",
-                "link": "https://www.ceruleanmind.com/timer",
+                "link": "https://timer.ceruleanmind.com",
                 "source": "https://github.com/gluo7777/Pomodoro-Task-Timer"
             },
             {
