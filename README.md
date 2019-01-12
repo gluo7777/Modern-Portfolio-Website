@@ -1,4 +1,4 @@
-Based off of https://github.com/BlackrockDigital/startbootstrap-agency.
+View live at [www.ceruleanmind.com](https://www.ceruleanmind.com)
 
 # Action Items
 - Modify templates
