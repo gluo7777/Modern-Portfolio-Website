@@ -11,13 +11,14 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 /* Templating */
-app.set('views','./templates');
+app.set('views', './templates');
 // set view engine to hbs - handlebars.js, an extension of mustache.js
 // change template files to *.html instead of *.hbs
-app.set('view engine','html');
+app.set('view engine', 'html');
 // calls __express method from hbs object on .html files
 app.engine('html', require('hbs').__express);
-require('./lib/templates');
+// import js file with auto configuration code
+require('./lib/template-config');
 
 const indexRouter = require('./routes/index');
 app.use('/', indexRouter);

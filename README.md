@@ -1,31 +1,17 @@
 View live at [www.ceruleanmind.com](https://www.ceruleanmind.com)
 
 # Action Items
-- Modify templates
-- Use Mustache for templating and repetition
-- NodeJs and ExpressJs for backend
-- Postgres for storage
+- Identify storage options
+- fix .eslintrc configuration
 
 # Enhancements
-- Save text in JSON and apply templating
-- Handlebars.js
-    - helpers
-    - partials
-- Login as admin and modify some portions of the website?
+- link to download resume
 - Process Managers + SystemMD for auto-restarts
     - http://strong-pm.io/compare/
     - https://www.freedesktop.org/software/systemd/man/systemd.unit.html
 
-# Deployment
-- How to pass environment arguments\
+# Building and testing
+>npm install && npm test
 
-# Environment Set Up
-- Configure Nginx as Reverse Proxy
-- Configure IP rules
-- Run NodeJS
-- Test internal
-- Test external
-- Test obvious requests
-- Follow Production Best Practices:
-    - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/deployment
-    - 
+# Running
+>./run.sh
