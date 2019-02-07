@@ -29,7 +29,8 @@
         "hbs-utils": "0.0.4",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
-        "morgan": "~1.9.0"
+        "morgan": "~1.9.0",
+        "popper.js": "^1.14.6"
     },
     "devDependencies": {
         "browser-sync": "2.26.3",
