@@ -18,7 +18,7 @@ app.set('view engine', 'html');
 // calls __express method from hbs object on .html files
 app.engine('html', require('hbs').__express);
 // import js file with auto configuration code
-require('./lib/templates');
+require('./lib/template-config');
 
 const indexRouter = require('./routes/index');
 app.use('/', indexRouter);
