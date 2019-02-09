@@ -8,8 +8,10 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/bin/www",
-            "env": {"PORT":"3030"}
+            "program": "${workspaceFolder}/app.js",
+            "env": {
+                "PORT": "3030"
+            }
         }
     ]
 }
