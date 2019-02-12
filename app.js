@@ -1,26 +1,27 @@
-const express = require('express');
+// IMPORTANT: https://stackoverflow.com/questions/8131344/what-is-the-difference-between-dirname-and-in-node-js
+// __dirname is directory where the executed script resides, while ./ is directory from which the node command was executed
+// exception is ./ inside require always evaluates relatively
+
+// Imports
+const httputil = require('./http/http-util');
+const express = require('./http/express-config');
 const path = require('path');
-const cookieParser = require('cookie-parser');
-const logger = require('morgan');
-const app = express();
 
-app.use(logger('dev'));
-app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
-app.use(cookieParser());
-app.use(express.static(path.join(__dirname, 'public')));
+// Constants
+const DEFAULT_PORT = '3000';
 
-/* Templating */
-app.set('views', './templates');
-// set view engine to hbs - handlebars.js, an extension of mustache.js
-// change template files to *.html instead of *.hbs
-app.set('view engine', 'html');
-// calls __express method from hbs object on .html files
-app.engine('html', require('hbs').__express);
-// import js file with auto configuration code
-require('./lib/template-config');
+// Determine environment variables
+const port = httputil.normalizePort(process.env.PORT || DEFAULT_PORT);
+// sets up actual server
+const server = require('http').createServer(
+    express.buildRequestListener(port, path.join(__dirname, 'public'), path.join(__dirname, 'templates')));
+server.listen(port);
+server.on('error', httputil.buildErrorHandler());
+server.on('listening', httputil.buildListener(server.address()));
 
-const indexRouter = require('./routes/index');
-app.use('/', indexRouter);
 
-module.exports = app;
+
+
+
+
+
