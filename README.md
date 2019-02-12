@@ -1,5 +1,8 @@
 View live at [www.ceruleanmind.com](https://www.ceruleanmind.com)
 
+# CI
+[Travis CI](https://travis-ci.org/account/repositories)
+
 # Action Items
 - Identify storage options
 - fix .eslintrc configuration
