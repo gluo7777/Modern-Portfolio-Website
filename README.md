@@ -8,13 +8,18 @@ View live at [www.ceruleanmind.com](https://www.ceruleanmind.com)
 - fix .eslintrc configuration
 
 # Enhancements
-- link to download resume
-- Process Managers + SystemMD for auto-restarts
-    - http://strong-pm.io/compare/
-    - https://www.freedesktop.org/software/systemd/man/systemd.unit.html
+- update site.json
+- deploy on EBS
+- host static resources on S3
+    - site.json
+    - public
 
 # Building and testing
 >npm install && npm test
 
 # Running
 >./run.sh
+
+# Packaging
+> rm *.zip && zip -r pizza.zip . -x node_modules/\* \*.txt \*.md .\*
+unzip pizza.zip -d pizza

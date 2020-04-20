@@ -19,28 +19,24 @@
             "description": "Technologies or Skills I've Acquired",
             "items": [
                 {
-                    "heading": "Web Programming",
-                    "description": "HTML5, Javascript (ES6), CSS3"
-                },
-                {
-                    "heading": "Server Programming",
-                    "description": "Java, Python, NodeJS, UNIX"
+                    "heading": "Languages",
+                    "description": "Java, Python, Javascript, SQL, Shell"
                 },
                 {
                     "heading": "Frameworks",
-                    "description": "ReactJS, NodeJS, BootStrap 4, Spring Boot/Web/Security, Android"
+                    "description": "React, MaterialUI, Node, Spring, Material, Serenity, Selenium, Handlebars"
+                },
+                {
+                    "heading": "Devops",
+                    "description": "Splunk, AWS, Jenkins, GitLab/GitHub CI"
+                },
+                {
+                    "heading": "AWS",
+                    "description": ""
                 },
                 {
                     "heading": "Concepts/Practices",
                     "description": "Continuous Integration/Development, Agile, RESTful Webservices, SCM, Test/Behavior Driven Development, Full Stack Development"
-                },
-                {
-                    "heading": "Tooling",
-                    "description": "Git, Maven, Jenkins, Splunk, IDEs, Rest Clients, MS Office Suite"
-                },
-                {
-                    "heading": "Scripting/Other Programming",
-                    "description": "Groovy, AHK, Typescript, JSX, SASS, Serenity/JBehave, Handlebars/Thymeleaf Templating, SQL"
                 }
             ]
         },
@@ -96,24 +92,21 @@
                     "JSON",
                     "Nginx"
                 ],
-                "summary": "Built using Bootstrap with ExpressJs backend. Server-side rendering with Handlebar templates.",
-                "link": "https://www.ceruleanmind.com",
+                "summary": "Built using Bootstrap with ExpressJs backend. Server-side rendering with Handlebar templates. Hosted using Elastic Beanstalk.",
+                "link": "https://www.williamluo.com",
                 "source": "https://github.com/gluo7777/Modern-Portfolio-Website"
             },
             {
-                "title": "Pomodoro Timer Task Application",
-                "description": "A timer application that also keeps track of tasks.",
-                "thumbnail": "pomodoro-thumbnail.jpg",
-                "full": "pomodoro.jpg",
+                "title": "Public API Browser",
+                "description": "Single page application created with React and Bootstrap.",
+                "thumbnail": "header-bg.jpg",
+                "full": "",
                 "technologies": [
-                    "node.js 6",
-                    "Javascript ES6",
-                    "ExpressJS",
-                    "Single Page Application",
-                    "OAuth2.0 with Google Auth Services"
+                    "React",
+                    "Bootstrap"
                 ],
-                "summary": "This was one of my first javascript projects, so I initially used only JS without any technology stacks. It's very rough around the edges, so I plan on switching soon to a framework like React.js.",
-                "link": "https://timer.ceruleanmind.com",
+                "summary": "Search for public available apis",
+                "link": "https://gluo7777.github.io/public-api-browser",
                 "source": "https://github.com/gluo7777/Pomodoro-Task-Timer"
             },
             {
@@ -130,19 +123,31 @@
                 "source": "https://github.com/gluo7777/PythonRedditDealsBot"
             },
             {
-                "title": "Raspberry Pi Home Server",
-                "description": "Raspi server from scratch that hosts this website.",
-                "thumbnail": "Raspberry-Pi-Zero-FL-thumbnail.jpg",
-                "full": "Raspberry-Pi-Zero-FL.jpg",
+                "title": "Full Stack Secured Web App POC",
+                "description": "Fully containerized full stack application.",
+                "thumbnail": "header-bg.jpg",
+                "full": "",
                 "technologies": [
-                    "Raspbian",
-                    "Nginx",
-                    "ufw/fail2ban",
-                    "Lot's of UNIX",
-                    "Domain,DNS hosting,Cloudflare,HTTPS"
+                    "Docker"
+                    ,"Kubernetes"
+                    ,"Java"
+                    ,"React"
+                    ,"MaterialUI"
                 ],
-                "summary": "Configured a server from scratch on a pi. Purchased this domain name and configured Nginx as a reverse proxy.",
-                "source": "https://github.com/gluo7777/Raspberrypi"
+                "summary": "Created docker images for each slice of the web application (e.g. server, frontend, cache layer, database, reverse-proxy.",
+                "source": "https://github.com/gluo7777/loginui"
+            },
+            {
+                "title": "Command Line Tool for Performing Various Functions",
+                "description": "Written with Python3 and Click framework.",
+                "thumbnail": "header-bg.jpg",
+                "full": "",
+                "technologies": [
+                    "Python3"
+                    ,"Click"
+                ],
+                "summary": "Allows for performing various tasks for user.",
+                "source": "https://github.com/gluo7777/MyTools"
             }
         ]
     },

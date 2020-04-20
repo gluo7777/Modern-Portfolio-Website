@@ -9,4 +9,4 @@ export NODE_ENV=production
 app=portfolio
 port=3030
 echo "Starting app=$app in port=$port"
-$(PORT=$port node bin/www > $app.out 2> $app.err) &
+$(PORT=$port node app.js > $app.out 2> $app.err) &
