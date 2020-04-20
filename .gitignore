@@ -3,3 +3,5 @@ node_modules
 *.out
 *.err
 *.code-workspace
+*.zip
+portfolio

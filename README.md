@@ -21,5 +21,8 @@ View live at [www.ceruleanmind.com](https://www.ceruleanmind.com)
 >./run.sh
 
 # Packaging
-> rm *.zip && zip -r pizza.zip . -x node_modules/\* \*.txt \*.md .\*
-unzip pizza.zip -d pizza
+```bash
+rm *.zip
+zip -r portfolio.zip . -x node_modules/\* \*.txt \*.md .\* .\* \*.code-workspace run.sh \*.err \*.out \*.zip
+unzip portfolio.zip -d portfolio
+```
