@@ -26,6 +26,6 @@ View live at [www.williamluo.com](https://www.williamluo.com)
 # Packaging
 ```bash
 rm *.zip
-zip -r portfolio.zip . -x node_modules/\* portfolio \*.txt \*.md .\* .\* \*.code-workspace run.sh \*.err \*.out \*.zip
+zip -r portfolio.zip . -x node_modules/\* portfolio \*.txt \*.md .git/\* \*.code-workspace run.sh \*.err \*.out \*.zip
 unzip portfolio.zip -d portfolio
 ```
