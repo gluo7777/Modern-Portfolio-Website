@@ -8,5 +8,6 @@ echo "Configuring environment"
 export NODE_ENV=production
 app=portfolio
 port=3030
+[ -z "$S3" ] && read -p "Enter S3 URL: " S3
 echo "Starting app=$app in port=$port"
-$(PORT=$port node bin/www > $app.out 2> $app.err) &
+$(PORT=$port SITE_CONFIG_URL=$S3/site.json node app.js > $app.out 2> $app.err) &
