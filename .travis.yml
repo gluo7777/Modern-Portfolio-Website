@@ -3,3 +3,5 @@ node_js:
   - "node"
   - "10.13.0"
 cache: npm
+script:
+  - npm test
