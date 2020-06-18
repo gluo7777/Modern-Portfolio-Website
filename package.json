@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Website to showcase what I've done.",
     "scripts": {
-        "start": "node ./bin/www",
+        "start": "node app.js",
         "test": "jest test"
     },
     "keywords": [
